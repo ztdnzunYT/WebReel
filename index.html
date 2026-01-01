@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+<script src="https://kit.fontawesome.com/1adaada368.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Home</a>
+    <a href="graphic-t's.html">Shop</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div id="main">
+
+  
+    <div class="header" style="justify-content: center; width: 100%;" >
+      
+      <div style="z-index: 1;">
+         <span style="font-size:30px;cursor:pointer;color: #818181; margin-left: 5px;" onclick="openNav()">&#9776; </span>
+      </div>
+
+      <p class="headertext">ZTDNZUN</p>
+
+    </div>
+
+    <div class="column">
+      <div class="leftcol">
+        <p>Featured</p>
+        <img class="homepage-clothes" src="images/white 33t shirt 2.png">
+      </div>
+      <div class="rightcol">
+        <p>New Arrivals</p>
+        <img class="homepage-clothes" src="images/black t.png">
+      </div>
+    </div>
+
+    
+
+
+  </div>
+<footer>
+  <div class="footerbox" >
+    <div class="footerrow" style="margin: 50px; display: flex">
+      <p style="color: white; margin-left: 0 200px;">©2024ZTDNZUN</p>
+      <div class="newsletter-subscribe" style="align-content: center;">
+        <p>Subscribe</p>
+      </div>
+      <i class="fa-brands fa-instagram" style="color: white; margin: 0 5px;"></i>
+      <i class="fa-brands fa-youtube" style="color: white; margin: 0 5px;"></i>
+      <i class="fa-brands fa-twitter"  style="color: white; margin-left: 0 5px;"></i>
+    </div>
+    <div>
+      <hr color="white" size="1" width="70%" style="margin-top: -50px; border-radius: 5px; justify-content: center;">
+      
+      <div style="display: flex; align-content: center; justify-content: space-evenly; height: 20px; text-align: center;">
+        <p>Terms of service</p>
+        <p>Newsletter</p>
+        <p>About Us</p>
+      </div>
+      <div style="display: flex; align-content: center; justify-content: space-evenly; text-align: center;">
+        <p>Privacy Policy</p>
+        <p>News</p>
+        <p>Contact Us</p>
+      </div>
+      
+    </div>
+    
+    
+
+  </div>
+  
+  
+</footer>
+
+
+
+</html> 
+
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+  </script>
+   
+</body>
